@@ -17,6 +17,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- my own
+    ["<leader>kk"] = { "<cmd>TroubleToggle<cr>", desc = "Toggle Trouble" },
+    ["<leader>kw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle Trouble" },
+    ["<leader>kd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle Trouble" },
+    ["<leader>kq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle Trouble" },
+    ["<leader>kl"] = { "<cmd>TroubleToggle loclist<cr>", desc = "Toggle Trouble" },
+    ["<leader>kr"] = { "<cmd>TroubleToggle lsp_references<cr>", desc = "Toggle Trouble" },
   },
   t = {
     -- setting a mapping to false will disable it
