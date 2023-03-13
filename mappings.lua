@@ -17,13 +17,14 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    -- my own
+    -- MY OWN 
+    -- Trouble 
     ["<leader>kk"] = { "<cmd>TroubleToggle<cr>", desc = "Toggle Trouble" },
-    ["<leader>kw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle Trouble" },
-    ["<leader>kd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle Trouble" },
-    ["<leader>kq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle Trouble" },
-    ["<leader>kl"] = { "<cmd>TroubleToggle loclist<cr>", desc = "Toggle Trouble" },
-    ["<leader>kr"] = { "<cmd>TroubleToggle lsp_references<cr>", desc = "Toggle Trouble" },
+    ["<leader>kw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle Trouble Workspace Diagnostics" },
+    ["<leader>kd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle Trouble Document Diagnostics" },
+    ["<leader>kq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle Trouble Quickfix" },
+    ["<leader>kl"] = { "<cmd>TroubleToggle loclist<cr>", desc = "Toggle Trouble Location List" },
+    ["<leader>kr"] = { "<cmd>TroubleToggle lsp_references<cr>", desc = "Toggle Trouble LSP Refs" },
   },
   t = {
     -- setting a mapping to false will disable it
