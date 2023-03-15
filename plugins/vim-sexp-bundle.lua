@@ -1,6 +1,6 @@
 -- customize mason plugins
 return {
-  -- use mason-lspconfig to configure LSP installations
+  -- vim-sexp and vim-sexp-mappings-for-regular-people only in certain buffers
    {
       "guns/vim-sexp",
       ft = { "clojure", "lisp", "fennel", "scheme", "janet" },
@@ -15,7 +15,7 @@ return {
       --    require("vim-sexp").setup()
       -- end,
   },
-  -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
+  -- vim surround in all buffers
    {
       "tpope/vim-surround",
       event = "BufEnter",
