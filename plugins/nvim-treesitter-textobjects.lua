@@ -71,11 +71,16 @@ return {
                      ["ik"] = "@block.inner",
                      ["al"] = "@loop.outer",
                      ["il"] = "@loop.inner",
-                     ["is"] = "@statement.inner",
-                     ["as"] = "@statement.outer",
+                     ["ix"] = "@statement.inner",
+                     ["ax"] = "@statement.outer",
                      ["ad"] = "@comment.outer",
                      ["am"] = "@call.outer",
-                     ["im"] = "@call.inner"
+                     ["im"] = "@call.inner",
+                     ["ia"] = "@assignment.inner",
+                     ["aa"] = "@assignment.outer",
+                     ["la"] = "@assignment.lhs",
+                     ["ra"] = "@assignment.rhs"
+                     
                   },
                   -- You can choose the select mode (default is charwise 'v')
                   --
